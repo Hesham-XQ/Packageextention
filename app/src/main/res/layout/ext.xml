@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data Extention"
+        android:text="@string/data_extention"
         android:textSize="30sp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
@@ -23,7 +23,7 @@ android:layout_marginBottom="20dp"
         android:textColor="#FF1C6F97"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone Number"
+        android:text="@string/phone_number"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:textSize="18sp"/>
@@ -36,34 +36,34 @@ android:layout_marginBottom="20dp"
             android:id="@+id/data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="DATA : 01285209848"
+            android:text="@string/data_text"
             android:layout_marginBottom="5dp"/>
 
         <CheckBox
             android:id="@+id/personal_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Personal : 01281112585"
+            android:text="@string/personal_text"
             android:layout_marginBottom="5dp"/>
 
         <CheckBox
             android:id="@+id/test_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Test NO. : 01206607035 "
+            android:text="@string/test_text"
             android:layout_marginBottom="5dp"/>
 
         <CheckBox
             android:id="@+id/etisalat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Etisalat : 01129939413"
+            android:text="@string/etisalat_text"
             android:layout_marginBottom="5dp"/>
         <CheckBox
             android:id="@+id/vodafone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vodafone : 01093931801"
+            android:text="@string/voda_text"
             android:layout_marginBottom="5dp"/>
     </LinearLayout>
 </LinearLayout>
@@ -76,7 +76,7 @@ android:layout_marginBottom="20dp"
             android:textColor="#FF1C6F97"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NO. of GBs :"
+            android:text="@string/gigas"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="15dp"
@@ -96,7 +96,7 @@ android:layout_marginBottom="20dp"
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REQUEST"
+        android:text="@string/request"
         android:onClick="request"
         android:layout_gravity="center"/>
 </LinearLayout>
