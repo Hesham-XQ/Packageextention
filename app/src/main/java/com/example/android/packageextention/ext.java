@@ -34,11 +34,11 @@ public class ext extends Activity{
         CheckBox data = findViewById(R.id.data);
         boolean datax = data.isChecked();
 
-        CheckBox personal = findViewById(R.id.personal);
-        boolean personx = personal.isChecked();
+        CheckBox test_box = findViewById(R.id.test_number);
+        boolean test_button = test_box.isChecked();
 
-        CheckBox testno = findViewById(R.id.test);
-        boolean testx = testno.isChecked();
+        CheckBox personaly = findViewById(R.id.personal_number);
+        boolean per = personaly.isChecked();
 
         CheckBox voda = findViewById(R.id.vodafone);
         boolean vodax = voda.isChecked();
@@ -46,7 +46,7 @@ public class ext extends Activity{
         CheckBox etisalat = findViewById(R.id.etisalat);
         boolean etix = etisalat.isChecked();
 
-        String number = getNumbers(datax , testx , personx , vodax , etix);
+        String number = getNumbers(datax , test_button ,per , vodax , etix);
 
 String finalForm = getForm(number , giga);
 
@@ -62,18 +62,18 @@ String finalForm = getForm(number , giga);
 
     }
 
-    private String getNumbers(boolean datax ,boolean personx , boolean testx , boolean vodax , boolean etix ){
+    private String getNumbers(boolean datax  , boolean test_button  ,boolean per, boolean vodax , boolean etix ){
         String no = "no added number";
 
         if (datax){
             no= "01285209848";
         }
 
-        if (personx){
-            no= "01281112585";
+        if (per){
+            no = "01281112585";
         }
 
-        if (testx){
+        if (test_button){
             no= "01206607035";
         }
 

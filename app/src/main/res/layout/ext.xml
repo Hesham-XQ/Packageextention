@@ -40,14 +40,14 @@ android:layout_marginBottom="20dp"
             android:layout_marginBottom="5dp"/>
 
         <CheckBox
-            android:id="@+id/personal"
+            android:id="@+id/personal_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Personal : 01281112585"
             android:layout_marginBottom="5dp"/>
 
         <CheckBox
-            android:id="@+id/test"
+            android:id="@+id/test_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Test NO. : 01206607035 "
